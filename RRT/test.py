@@ -10,23 +10,23 @@ j = 0
 n = N
 goal_found = False
 while cond:
-	print i
-	print "n: " + str((n + j*b))
+	print(i)
+	print("n: " + str((n + j*b)))
 	if i == (n + j*b):
 		j = j + 1
-		print "Optimize"
+		print("Optimize")
 		if i > 20:
 			cond = False
 	else:
 		if not goal_found:
-			print "search"
+			print("search")
 			if i == 4:
 				goal_found = True
 				n = i + 1
 
-				print "n: " + str(n)
+				print("n: " + str(n))
 		else:
-			print "compute path"
+			print("compute path")
 	
 	i = i + 1
 

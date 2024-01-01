@@ -133,8 +133,8 @@ def main():
                        obs, obs_resolution)
 
     path = rrt_star.planning()
-    print "Final Path: "
-    print path
+    print("Final Path: ")
+    print(path)
 
     while running:
         for event in pygame.event.get():

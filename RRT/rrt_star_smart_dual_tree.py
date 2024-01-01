@@ -171,8 +171,8 @@ def main():
 
 	path = rrt_star_smart_dual.planning()
 
-	print "Final Path: "
-	print path
+	print("Final Path: ")
+	print(path)
 
 	while running:
 		for event in pygame.event.get():
