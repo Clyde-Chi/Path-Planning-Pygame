@@ -33,6 +33,7 @@
 
 # Python
 *.pyc
+RRT/__pycache__
 
 # VS Code
 .vscode
